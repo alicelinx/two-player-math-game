@@ -12,7 +12,3 @@ class Question
     player_answer.to_i == @num1 + @num2    
   end
 end
-
-question = Question.new
-puts question.text
-puts question.answer_correct?(20)
